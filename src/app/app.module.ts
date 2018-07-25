@@ -9,6 +9,7 @@ import { ContainerTeamComponent } from './container-team/container-team.componen
 import { ContainerFooterComponent } from './container-footer/container-footer.component';
 import { ContainerProjectsComponent } from './container-projects/container-projects.component';
 import { ContainerAboutComponent } from './container-about/container-about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContainerAboutComponent } from './container-about/container-about.compo
     ContainerTeamComponent,
     ContainerFooterComponent,
     ContainerProjectsComponent,
-    ContainerAboutComponent
+    ContainerAboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule
