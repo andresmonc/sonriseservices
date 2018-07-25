@@ -8,6 +8,7 @@ import { BannerheaderComponent } from './bannerheader/bannerheader.component';
 import { ContainerTeamComponent } from './container-team/container-team.component';
 import { ContainerFooterComponent } from './container-footer/container-footer.component';
 import { ContainerProjectsComponent } from './container-projects/container-projects.component';
+import { ContainerAboutComponent } from './container-about/container-about.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ContainerProjectsComponent } from './container-projects/container-proje
     BannerheaderComponent,
     ContainerTeamComponent,
     ContainerFooterComponent,
-    ContainerProjectsComponent
+    ContainerProjectsComponent,
+    ContainerAboutComponent
   ],
   imports: [
     BrowserModule
