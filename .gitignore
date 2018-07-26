@@ -8,6 +8,7 @@
 
 # dependencies
 /node_modules
+/dist
 
 # IDEs and editors
 /.idea
@@ -42,3 +43,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.firebaserc
+firebase.json
+
