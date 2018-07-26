@@ -1,0 +1,12 @@
+/* Hide the mobile button by default */
+.icon {
+    display: none;
+}
+
+/* Show mobile nav button based on screen query */
+@media screen and (max-width: 600px){
+    .icon {
+        display: block;
+        float: right;
+    }
+}
