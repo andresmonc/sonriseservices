@@ -1,14 +1,36 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <meta charset="utf-8">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#4b5051">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#4b5051">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#4b5051">
   <title>Sonrise services</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <app-root></app-root>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDQeOOk9S5c8QFTm__r-CRg_oa25FxOJEI",
+      authDomain: "sonrise-f9814.firebaseapp.com",
+      databaseURL: "https://sonrise-f9814.firebaseio.com",
+      projectId: "sonrise-f9814",
+      storageBucket: "sonrise-f9814.appspot.com",
+      messagingSenderId: "568795124424"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
+
 </html>
