@@ -8,7 +8,7 @@ import { BannerheaderComponent } from './bannerheader/bannerheader.component';
 import { ContainerTeamComponent } from './container-team/container-team.component';
 import { ContainerFooterComponent } from './container-footer/container-footer.component';
 import { ContainerProjectsComponent } from './container-projects/container-projects.component';
-import { ContainerAboutComponent } from './container-about/container-about.component';
+import { ContainerServicesComponent } from './container-services/container-services.component';
 import { ContainerContactComponent } from './container-contact/container-contact.component';
 
 
@@ -20,7 +20,7 @@ import { ContainerContactComponent } from './container-contact/container-contact
     ContainerTeamComponent,
     ContainerFooterComponent,
     ContainerProjectsComponent,
-    ContainerAboutComponent,
+    ContainerServicesComponent,
     ContainerContactComponent
   ],
   imports: [
