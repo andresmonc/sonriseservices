@@ -10,6 +10,7 @@ import { ContainerFooterComponent } from './container-footer/container-footer.co
 import { ContainerProjectsComponent } from './container-projects/container-projects.component';
 import { ContainerAboutComponent } from './container-about/container-about.component';
 import { ContainerContactComponent } from './container-contact/container-contact.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ContainerContactComponent } from './container-contact/container-contact
     ContainerFooterComponent,
     ContainerProjectsComponent,
     ContainerAboutComponent,
-    ContainerContactComponent
+    ContainerContactComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule
