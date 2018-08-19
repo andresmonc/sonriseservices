@@ -20,9 +20,9 @@
 <div class="w3-sidebar w3-bar-block w3-border-right" id="mySidebar"  *ngIf="SidebarVar === 2">
     <button (click)="SidebarVar=1" class="w3-bar-item w3-large">Close &times;</button>
     <span>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#services" class="w3-bar-item w3-button">Services</a>
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
+      <a href="#about" class="w3-bar-item w3-button" (click)="SidebarVar=1">About</a>
+      <a href="#services" class="w3-bar-item w3-button" (click)="SidebarVar=1">Services</a>
+      <a href="#projects" class="w3-bar-item w3-button" (click)="SidebarVar=1">Projects</a>
+      <a href="#contact" class="w3-bar-item w3-button" (click)="SidebarVar=1">Contact Us</a>
     </span>
   </div>
